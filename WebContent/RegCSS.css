@@ -1,0 +1,171 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("./static/colors.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#main {
+	position: relative;
+}
+
+.login-box {
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	margin-left: -220px;
+	width: 370px;
+	height: 230px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}	
+
+
+.login-box h3 {
+	width: 100%;
+	text-align: center;
+	color: #FFCCCC;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+.login-box select {
+	height: 35px;
+	width: 250px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	padding-left: 50px;
+	margin: center;
+	border: 2px solid #ffff00;
+}
+.option{
+	text-align:center;
+}
+.login-box input {
+	height: 35px;
+	width: 220px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	padding-left: 50px;
+	border: 2px solid #ffff00;
+}
+
+.item {
+	position: relative;
+}
+
+.username-icon {
+	position: absolute;
+	width: 35px;
+	height: 33px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/username.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+
+.password-icon {
+	position: absolute;
+	width: 35px;
+	height: 33px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/password.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+.email-icon {
+	position: absolute;
+	width: 35px;
+	height: 33px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/email.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+
+
+.password_confirm-icon {
+	position: absolute;
+	width: 35px;
+	height: 33px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/pass.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+.pin-icon {
+	position: absolute;
+	width: 33px;
+	height: 30px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/pin.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+.usernumber-icon {
+	position: absolute;
+	width: 33px;
+	height: 30px;
+	background-size: 20px 20px;
+	background-image: url("./static/icon/bianhao.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+
+#submit {
+        width: 100px;
+        height: 30px;
+		background-color: #DDD;
+        margin-left:-120px;
+        margin-bottom:10px;
+        border-radius: 8px;
+        border: 2px solid #66ff00;
+}
+#reset {
+	width: 100px;
+        height: 30px;
+		background-color: #DDD;
+        margin-left:20px;
+        margin-bottom:10px;
+        border-radius: 8px;
+		border: 2px solid #ff6699;
+}
+#code {		
+    	background: linear-gradient(35deg,#ccffff,#ffcccc);
+        width: 80px;
+        height: 35px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #000;
+        border: 2px dashed #ccffff;
+        border-radius: 12px;
+        margin-left: 150px;
+        margin-bottom:10px;
+        cursor: pointer;
+    }
+    #pin{
+    	float:left;
+    	height: 35px;
+		width: 80px;
+		margin-bottom: 20px;
+		border-radius: 8px;
+		padding-left: 60px;
+    }
+	#information{
+	position: absolute;
+	left: 50%;
+	margin-left: -220px;
+	width: 600px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	top: 200px;
+	background-image:url("./static/pink.jpg");
+	}

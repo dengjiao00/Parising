@@ -1,0 +1,4 @@
+	FIRST(B) ∩ FOLLOW(B) = φ
+	FIRST(AaS) ∩ FIRST(BbS) = φ
+	FIRST(AaS) ∩ FIRST(d) = φ
+	FIRST(BbS) ∩ FIRST(d) = φ

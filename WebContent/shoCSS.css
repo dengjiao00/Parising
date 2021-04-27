@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+	background-image: url("./static/pik2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+.a-text{
+	font-size:20px;
+	text-align:center;
+	padding-top:10px;
+}
+.pink-text{
+	color:black;
+	font-size:60px;
+	text-align:center;
+}
+.center{
+	padding-top:-10px;
+	padding-left:400px;
+	
+}
+
+
